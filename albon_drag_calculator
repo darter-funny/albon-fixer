@@ -1,0 +1,9 @@
+echo "To be run by the network technician for albon only. and not on weekend";
+
+if [ "$1" = "toomuch" ]; then
+echo "tell albon: reduce drag";
+fi
+if [ "$1" = "notenough" ]; then
+echo "tell albon: check it again, drag is too much he doesnt know how to not have drag";
+fi
+echo "Tell albon about it"
